@@ -7,6 +7,16 @@ const config: MenuEntry[] = [
     href: 'https://mozartfinance.io/',
   },
   {
+    label: 'Farms',
+    icon: 'FarmIcon',
+    href: 'https://mozartfinance.io/farms',
+  },
+  {
+    label: 'Farms',
+    icon: 'FarmIcon',
+    href: 'https://mozartfinance.io/farms',
+  },
+  {
     label: 'Trade',
     icon: 'TradeIcon',
     items: [
