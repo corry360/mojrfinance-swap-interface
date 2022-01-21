@@ -11,6 +11,25 @@ const config: MenuEntry[] = [
     icon: 'FarmIcon',
     href: 'https://mozartfinance.io/farms',
   },
+   {
+    label: t('NFT'),
+    href: `${nftsBaseUrl}`,
+    icon: 'Nft',
+    items: [
+      {
+        label: t('Overview'),
+        href: `${nftsBaseUrl}`,
+      },
+      {
+        label: t('Collections'),
+        href: `${nftsBaseUrl}/collections`,
+      },
+      {
+        label: t('Activity'),
+        href: `${nftsBaseUrl}/activity`,
+      },
+    ],
+  },
   {
     label: 'Referral (coming)',
     icon: 'FarmIcon',
