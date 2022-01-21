@@ -11,8 +11,8 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
-      "name": "MozartFinance Token",
-      "symbol": "PIANO",
+      "name": "Fortswape Token",
+      "symbol": "FORTS",
       "address": "0xd46936677b2c1bb696f2b67c55239331e2b7cd42",
       "chainId": 56,
       "decimals": 18,
