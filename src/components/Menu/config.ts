@@ -6,35 +6,7 @@ const config: MenuEntry[] = [
     icon: 'HomeIcon',
     href: 'https://mozartfinance.io/',
   },
-  {
-    label: 'NFTs (coming)',
-    icon: 'FarmIcon',
-    href: 'https://mozartfinance.io/farms',
-  },
-   {
-    label: t('NFT'),
-    href: `${nftsBaseUrl}`,
-    icon: 'Nft',
-    items: [
-      {
-        label: t('Overview'),
-        href: `${nftsBaseUrl}`,
-      },
-      {
-        label: t('Collections'),
-        href: `${nftsBaseUrl}/collections`,
-      },
-      {
-        label: t('Activity'),
-        href: `${nftsBaseUrl}/activity`,
-      },
-    ],
-  },
-  {
-    label: 'Referral (coming)',
-    icon: 'FarmIcon',
-    href: 'https://mozartfinance.io/farms',
-  },
+   
   {
     label: 'Trade',
     icon: 'TradeIcon',
@@ -60,6 +32,25 @@ const config: MenuEntry[] = [
     href: 'https://pedantic-banach-b6c749.netlify.app/pools',
   },
   {
+    label: t('NFT (coming)'),
+    href: `${nftsBaseUrl}`,
+    icon: 'Nft',
+    items: [
+      {
+        label: t('Overview'),
+        href: `${nftsBaseUrl}`,
+      },
+      {
+        label: t('Collections'),
+        href: `${nftsBaseUrl}/collections`,
+      },
+      {
+        label: t('Activity'),
+        href: `${nftsBaseUrl}/activity`,
+      },
+    ],
+  },
+  {
     label: 'More',
     icon: 'MoreIcon',
     items: [
@@ -71,12 +62,17 @@ const config: MenuEntry[] = [
         label: 'Docs',
         href: 'https://mozartfi/',
       },
-      {
-        label: 'Blog',
-        href: 'https://',
-      },
+     
     ],
   },
+    {
+        label: t('IFO (coming)'),
+        href: '/ifo',
+      },
+      {
+        label: t('Voting'),
+        href: '/voting',
+      },
   {
     label: 'Audit by IB',
     icon: 'TicketIcon',
