@@ -33,12 +33,12 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://mozartfinance.io/farms',
+    href: 'https://pedantic-banach-b6c749.netlify.app/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://mozartfinance.io/pools',
+    href: 'https://pedantic-banach-b6c749.netlify.app/pools',
   },
   {
     label: 'More',
@@ -46,22 +46,22 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/mozartfinance',
+        href: 'https://github.com/',
       },
       {
         label: 'Docs',
-        href: 'https://mozartfinance.gitbook.io/mozart-finance/',
+        href: 'https://mozartfi/',
       },
       {
         label: 'Blog',
-        href: 'https://mozart-finance.medium.com/',
+        href: 'https://',
       },
     ],
   },
   {
     label: 'Audit by IB',
     icon: 'TicketIcon',
-    href: 'https://github.com/ImmuneBytes/Smart-Contract-Audit-Reports/blob/main/Mozart%20Finance/Mozart%20Finance%20(PIANO)%20-%20Final%20Audit%20Report.pdf',
+    href: 'https://github.com',
   },
 ]
 
