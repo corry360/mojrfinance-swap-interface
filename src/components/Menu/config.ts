@@ -32,20 +32,20 @@ const config: MenuEntry[] = [
     href: 'https://pedantic-banach-b6c749.netlify.app/pools',
   },
   {
-    label: t('NFT (coming)'),
+    label: 'NFT (coming),
     href: `${nftsBaseUrl}`,
     icon: 'Nft',
     items: [
       {
-        label: t('Overview'),
+        label: 'Overview',
         href: `${nftsBaseUrl}`,
       },
       {
-        label: t('Collections'),
+        label: 'Collections',
         href: `${nftsBaseUrl}/collections`,
       },
       {
-        label: t('Activity'),
+        label: 'Activity',
         href: `${nftsBaseUrl}/activity`,
       },
     ],
