@@ -4,112 +4,54 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://mozartfinance.io/',
+    href: '/',
   },
-   
   {
     label: 'Trade',
     icon: 'TradeIcon',
     items: [
       {
         label: 'Exchange',
-        href: '/swap',
+        href: 'https://exchange.mozartfinance.io',
       },
       {
         label: 'Liquidity',
-        href: '/pool',
+        href: 'https://exchange.mozartfinance.io/#/pool',
       },
     ],
   },
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://pedantic-banach-b6c749.netlify.app/farms',
+    href: '/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://pedantic-banach-b6c749.netlify.app/pools',
+    href: '/pools',
   },
-    {
-    label: 'Trade',
-    icon: 'TradeIcon',
-    initialOpenState: true,
-    status: {
-      text: 'MIGRATE',
-      color: 'warning',
-    },
+  {
+    label: 'More',
+    icon: 'MoreIcon',
     items: [
       {
-        label: 'LP Migration',
-        href: '/migrate',
+        label: 'Github',
+        href: 'https://github.com/mozartfinance',
       },
       {
-        label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance/#/swap',
+        label: 'Docs',
+        href: 'https://mozartfinance.gitbook.io/mozart-finance/',
       },
       {
-        label: 'Liquidity',
-        href: 'https://exchange.pancakeswap.finance/#/pool',
-      },
-      {
-        label: 'V1 Liquidity (Old)',
-        href: '/pool',
-      },
-    ],
-  },
-  {
-    label: 'Farms',
-    icon: 'FarmIcon',
-    href: 'https://pancakeswap.finance/farms',
-  },
-  {
-    label: 'Pools',
-    icon: 'PoolIcon',
-    href: 'https://pancakeswap.finance/pools',
-  },
-  {
-    label: 'Prediction (BETA)',
-    icon: 'PredictionsIcon',
-    href: 'https://pancakeswap.finance/prediction',
-  },
-  {
-    label: 'Lottery',
-    icon: 'TicketIcon',
-    href: 'https://pancakeswap.finance/lottery',
-  },
-  {
-    label: 'Collectibles',
-    icon: 'NftIcon',
-    href: 'https://pancakeswap.finance/nft',
-  },
-  {
-    label: 'Team Battle',
-    icon: 'TeamBattleIcon',
-    href: 'https://pancakeswap.finance/competition',
-  },
-  {
-    label: 'Teams & Profile',
-    icon: 'GroupsIcon',
-    items: [
-      {
-        label: 'Leaderboard',
-        href: 'https://pancakeswap.finance/teams',
-      },
-      {
-        label: 'Task Center',
-        href: 'https://pancakeswainance/profile/tasks',
-      },
-      {
-        label: 'Your Profile',
-        href: 'https://pancakeswapnance/profile',
+        label: 'Blog',
+        href: 'https://mozart-finance.medium.com/',
       },
     ],
   },
   {
     label: 'Audit by IB',
     icon: 'TicketIcon',
-    href: 'https://github.com',
+    href: 'https://github.com/ImmuneBytes/Smart-Contract-Audit-Reports/blob/main/Mozart%20Finance/Mozart%20Finance%20(PIANO)%20-%20Final%20Audit%20Report.pdf',
   },
 ]
 
